@@ -9,3 +9,12 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.circulo{
+    border: 1px;
+    /* background: red; */
+    width: 50px;
+    height: 50px;
+}
+.circulo2{
+    background: rgb(77, 141, 184);
+}

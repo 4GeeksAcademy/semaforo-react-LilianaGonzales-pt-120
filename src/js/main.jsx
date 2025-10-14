@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { useState } from 'react';
 
 //Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,9 +11,11 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
+import Color from './components/Color';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    {/* <Home/> */}
+    <Color/>
   </React.StrictMode>,
 )
