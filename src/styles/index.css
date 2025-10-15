@@ -18,3 +18,26 @@
 .circulo2{
     background: rgb(77, 141, 184);
 }
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red-on{
+    box-shadow : 0 0 50px red;
+}
+
+.green-on{
+    box-shadow : 0 0 50px green;
+}
+
+.orange-on{
+    box-shadow : 0 0 50px orange;
+}

@@ -12,10 +12,15 @@ import '../styles/index.css'
 // components
 import Home from './components/Home';
 import Color from './components/Color';
+import Semaforo from './components/Semaforo';
+
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <Home/> */}
-    <Color/>
+    <Semaforo/>
+    {/* <Color/> */}
   </React.StrictMode>,
 )
