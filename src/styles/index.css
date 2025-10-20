@@ -11,12 +11,16 @@
 */
 .circulo{
     border: 1px;
-    /* background: red; */
-    width: 50px;
-    height: 50px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
-.circulo2{
-    background: rgb(77, 141, 184);
+.centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 10%;
 }
 .red{
     background-color: red;
@@ -30,7 +34,7 @@
     background-color: orange;
 }
 
-.red-on{
+/* .red-on{
     box-shadow : 0 0 50px red;
 }
 
@@ -40,4 +44,7 @@
 
 .orange-on{
     box-shadow : 0 0 50px orange;
-}
+} */
+ .color-on{
+    box-shadow : 0 0 50px yellow;
+ }

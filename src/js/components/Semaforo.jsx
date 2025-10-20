@@ -12,10 +12,14 @@ const Semaforo = () => {
     return (
         <div className="container-fluid"> 
             <div className="row justify-content-center">
-                <div className="col-lg-8 mt-5">
+                <div className="col-lg-4 mt-5 pt-4 pb-4 centrar">
+                    
                     <Color colorLuz="red" luzPrendida={luzPrendida} setLuzPrendida={setLuzPrendida}/>
+                    <div style={{height:"5px"}}></div>
                     <Color colorLuz="orange" luzPrendida={luzPrendida} setLuzPrendida={setLuzPrendida}/>
+                    <div style={{height:"5px"}}></div>
                     <Color colorLuz="green" luzPrendida={luzPrendida} setLuzPrendida={setLuzPrendida}/>
+                    
                 </div>
             </div> 
         </div>
