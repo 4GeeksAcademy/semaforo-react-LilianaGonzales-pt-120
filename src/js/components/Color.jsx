@@ -11,8 +11,8 @@ const Color = ({colorLuz,luzPrendida,setLuzPrendida}) => {
 
     return (
         <div>  
-            {/* <div className={`circulo ${colorLuz} ${luzPrendida==colorLuz? `${colorLuz}-on`:''}`} onClick={()=>setLuzPrendida(colorLuz)}></div> */}
-            <div className={`circulo ${colorLuz} ${luzPrendida==colorLuz?'color-on':''}`} onClick={()=>setLuzPrendida(colorLuz)}></div>
+            <div className={`circulo ${colorLuz} ${luzPrendida==colorLuz? `${colorLuz}-on`:''}`} onClick={()=>setLuzPrendida(colorLuz)}></div>
+            {/* <div className={`circulo ${colorLuz} ${luzPrendida==colorLuz?'color-on':''}`} onClick={()=>setLuzPrendida(colorLuz)}></div> */}
         </div>
     );
 };

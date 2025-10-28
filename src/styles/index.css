@@ -34,7 +34,7 @@
     background-color: orange;
 }
 
-/* .red-on{
+.red-on{
     box-shadow : 0 0 50px red;
 }
 
@@ -44,7 +44,7 @@
 
 .orange-on{
     box-shadow : 0 0 50px orange;
-} */
- .color-on{
+}
+ /* .color-on{
     box-shadow : 0 0 50px yellow;
- }
+ } */
